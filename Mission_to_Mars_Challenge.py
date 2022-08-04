@@ -146,9 +146,6 @@ html = browser.html
 hemi_soup = soup(html, 'html.parser')
 
 
-# In[47]:
-
-
 # 2. Create a list to hold the images and titles.
 hemisphere_image_urls = []
 testy=[]
@@ -175,8 +172,6 @@ for page in pages:
                   'title':title_spot})
     #print(testy)
 
-
-# In[46]:
 
 
 # 4. Print the list that holds the dictionary of each image url and title.
